@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App_Sensores</string>
+
+
+    <string name="etiqSensorDeMovimiento">Sensor De Movimiento</string>
+    <string name="hello"></string>
+    <string name="etiqSensorDeOrientacion">Sensor De Orientacion</string>
+    <string name="etiqSensorDeProcimida">Sensor De Proximity</string>
+    <string name="sensores">LISTA DE SENSORES</string>
+    <string name="action_settings">Settings</string>
+</resources>

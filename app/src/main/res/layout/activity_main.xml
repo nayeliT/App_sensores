@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:id = "@+id/etiqSensorDeMovimiento"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etiqSensorDeMovimiento">
+    </TextView>
+    <TextView
+        android:id = "@+id/sensorDeMovimiento"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:textColor="#ffff0efb">
+    </TextView>
+
+    <TextView
+        android:id = "@+id/etiqSensorDeOrientacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etiqSensorDeOrientacion">
+    </TextView>
+    <TextView
+        android:id="@+id/sensorDeOrientacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello">
+    </TextView>
+
+    <TextView
+        android:id = "@+id/etiqSensorDeProcimida"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etiqSensorDeProcimida">
+    </TextView>
+    <TextView
+        android:id="@+id/sensorDeProcimidad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello">
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
